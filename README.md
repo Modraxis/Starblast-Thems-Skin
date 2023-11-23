@@ -13,7 +13,7 @@ To use this theme, you'll need a browser extension called Tampermonkey. Follow t
 2. **Add the UserScript:**
    - Open Tampermonkey from your browser's extensions menu.
    - Click on the Tampermonkey icon and select "Create a new script."
-   - Delete any existing code and replace it with the content of the [Black Sun Theme UserScript](URL_TO_RAW_SCRIPT) provided in this repository.
+   - Delete any existing code and replace it with the content of the **UserScript** provided in this repository.
 
 3. **Save and Activate:**
    - Save the script by pressing `Ctrl + S` (or `Cmd + S` on Mac).
@@ -28,6 +28,6 @@ If you'd like to customize the theme further, you can modify the variables at th
 
 If you encounter any issues or have suggestions for improvement, please [open an issue](URL_TO_ISSUES) on this GitHub repository. Contributions are welcome!
 
-## License
+## Author
 
-This theme is licensed under the [MIT License](LICENSE).
+- Basit         Discord ```m.basit```
