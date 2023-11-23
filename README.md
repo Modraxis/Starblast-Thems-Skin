@@ -30,4 +30,5 @@ If you encounter any issues or have suggestions for improvement, please [open an
 
 ## Author
 
-- Basit         Discord ```m.basit```
+- Basit 
+Discord `m.basit`
