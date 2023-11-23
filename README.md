@@ -1,6 +1,6 @@
 # Black Sun Theme for Starblast.io
 
-This UserScript provides a stylish Black Sun theme for the Starblast.io game. It enhances the visual experience with a dark color scheme and additional features.
+This UserScript provides a stylish theme/skin for the Starblast.io game. It enhances the visual experience with a dark color scheme and additional features.
 
 ## Installation
 
