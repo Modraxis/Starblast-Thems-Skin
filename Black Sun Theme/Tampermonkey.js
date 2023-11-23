@@ -837,46 +837,6 @@ tr .fa.fa-trophy {
 #overlay {
     background: var(--Background-Dark-color);
 }
-#overlay::before {
-    content: '';
-    position: absolute;
-    height: 2px;
-    width: 0;
-    background-color: var(--Light-color);
-    animation: borderAnimation 4s linear infinite;
-}
-
-@keyframes borderAnimation {
-    0% {
-        top: 0;
-        left: 0;
-        width: 0;
-    }
-
-    25% {
-        top: 0;
-        left: 100%;
-        width: 100%;
-    }
-
-    50% {
-        top: 100%;
-        left: 100%;
-        width: 100%;
-    }
-
-    75% {
-        top: 100%;
-        left: 0;
-        width: 0;
-    }
-
-    100% {
-        top: 0;
-        left: 0;
-        width: 0;
-    }
-}
 
 .mouse-right,
 .mouse-left,
