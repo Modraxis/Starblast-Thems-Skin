@@ -7,7 +7,6 @@
 // @match        https://starblast.io/
 // @grant        none
 // @antifeature tracking
-// @license MIT
 // ==/UserScript==
 
 (function () {
