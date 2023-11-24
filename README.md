@@ -2,6 +2,8 @@
 
 This UserScript provides a stylish theme/skin for the Starblast.io game. It enhances the visual experience with a dark color scheme and additional features.
 
+**Cool Theme/Skin for Starblast.io created by Basit.**
+
 ## Features
 
 - Dark and light color scheme
@@ -13,15 +15,17 @@ This UserScript provides a stylish theme/skin for the Starblast.io game. It enha
 
 ### Installation
 
-1. Install a userscript manager extension for your browser. We recommend [Tampermonkey](https://www.tampermonkey.net/) for most users.
+1. Install a userscript manager extension for your browser. We recommend **Tampermonkey** for most users.
+  - For Chrome, you can use [Tampermonkey](https://www.tampermonkey.net/).
+  - For Firefox, you can use [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
 
-2. Click on the Tampermonkey icon in your browser and select "Create a new script."
+3. Click on the Tampermonkey icon in your browser and select "Create a new script."
 
-3. Delete any default code and replace it with the content of the **UserScript** provided the repository.
+4. Delete any default code and replace it with the content of the **UserScript** provided the repository.
 
-4. Save the script.
+5. Save the script.
 
-5. Visit [starblast.io](https://starblast.io/) to see the theme in action!
+6. Visit [starblast.io](https://starblast.io/) to see the theme in action!
 
 ## Customization
 
