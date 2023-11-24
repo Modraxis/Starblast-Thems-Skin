@@ -33,7 +33,7 @@ If you'd like to customize the theme further, you can modify the variables at th
 
 ## Issues and Contributions
 
-If you encounter any issues or have suggestions for improvement, please [open an issue](URL_TO_ISSUES) on this GitHub repository. Contributions are welcome!
+If you encounter any issues or have suggestions for improvement, please **open an issue** on this GitHub repository. Contributions are welcome!
 
 ### License
 
