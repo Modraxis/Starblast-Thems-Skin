@@ -1,4 +1,4 @@
-# [MIT License](https://en.wikipedia.org/wiki/MIT_License)
+# MIT License
 
 Copyright (c) 2023 Basit
 
