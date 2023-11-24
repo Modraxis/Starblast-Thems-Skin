@@ -31,3 +31,9 @@ If you encounter any issues or have suggestions for improvement, please [open an
 ## Author
 
 **Basit** __Discord `m.basit`__
+
+### License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+**Note:** This userscript is not officially affiliated with Starblast.io. Use it at your own discretion.
