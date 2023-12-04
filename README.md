@@ -21,7 +21,7 @@ This UserScript provides a stylish theme/skin for the Starblast.io game. It enha
 
 3. Click on the Tampermonkey icon in your browser and select "Create a new script."
 
-4. Delete any default code and replace it with the content of the **UserScript** provided the repository.
+4. Delete any default code and replace it with the content of the ***Tampermonkey.js*** provided the repository.
 
 5. Save the script.
 
