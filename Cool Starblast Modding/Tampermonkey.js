@@ -5,7 +5,6 @@
 // @description -
 // @author      Basit
 // @match       https://starblast.data.neuronality.com/modding/moddingcontent.html
-// @icon        https://raw.githubusercontent.com/Modraxis/Starblast-Thems-Skin/main/Cool%20Starblast%20Modding/Logo.png
 // @grant       none
 // @antifeature tracking
 // @license     MIT
