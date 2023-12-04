@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name        Starblast Modding
+// @name        Cool Starblast Modding
 // @namespace   http://tampermonkey.net/
 // @version     1.0
-// @description Dynamically customize colors and adjust the hue on the web page
+// @description -
 // @author      Basit
 // @match       https://starblast.data.neuronality.com/modding/moddingcontent.html
+// @icon        https://raw.githubusercontent.com/Modraxis/Starblast-Thems-Skin/main/Cool%20Starblast%20Modding/Logo.png
 // @grant       none
 // @antifeature tracking
 // @license     MIT
@@ -86,6 +87,6 @@
 
     var imageElement = document.querySelector('.logo');
     if (imageElement) {
-        imageElement.src = '';
+        imageElement.src = 'https://raw.githubusercontent.com/Modraxis/Starblast-Thems-Skin/main/Cool%20Starblast%20Modding/Logo.png';
     }
 })();
