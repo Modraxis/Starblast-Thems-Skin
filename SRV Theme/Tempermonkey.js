@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name        SRV Theme
-// @namespace    -
+// @namespace   http://tampermonkey.net/
 // @version     1.0
 // @description -
 // @author      Basit
-// @match        https://starblast.io/
-// @grant        none
+// @match       https://starblast.io/
+// @grant       none
 // @antifeature tracking
 // ==/UserScript==
 
