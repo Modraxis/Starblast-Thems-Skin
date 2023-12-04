@@ -217,7 +217,7 @@ input[type="range"] {
 input[type="range"]::-webkit-slider-runnable-track {
     width: 200px;
     height: 5px;
-    background: linear-gradient(to right, red, #00FF00, blue, red);
+    background: linear-gradient(to right, red, yellow, #00FF00, blue, red);
     border-radius: 5px;
 }
 
