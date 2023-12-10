@@ -154,7 +154,7 @@ input[type="range"] {
 input[type="range"]::-webkit-slider-runnable-track {
     width: 200px;
     height: 5px;
-    background: linear-gradient(to right, red, #00FF00, blue, red);
+    background: linear-gradient(to right, red, yellow, #00FF00, blue, red);
     border-radius: 5px;
 }
 
@@ -182,4 +182,16 @@ fa.fa-fw.fa-forward.colors:before {
 
 #fieldview {
     border: 1px solid var(--sec-Main-color);
+}
+
+.ace_active-line {
+    background: hsla(var(--Hue), 100%, 12%, 0.7) !important;
+}
+
+.ace-monokai .ace_marker-layer .ace_selection {
+    background: hsla(var(--Hue), 100%, 25%) !important;
+}
+
+.ace-monokai .ace_print-margin {
+    background: var(--sec-Main-color) !important;
 }
