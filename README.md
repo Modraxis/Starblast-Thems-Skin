@@ -27,10 +27,6 @@ This UserScript provides a stylish theme/skin for the Starblast.io game. It enha
 
 6. Visit [starblast.io](https://starblast.io/) to see the theme in action!
 
-## Customization
-
-If you'd like to customize the theme further, you can modify the variables at the beginning of the script. Feel free to experiment with different colors or adjust the animation durations to suit your preferences.
-
 ## Issues and Contributions
 
 If you encounter any issues or have suggestions for improvement, please **open an issue** on this GitHub repository. Contributions are welcome!
