@@ -59,6 +59,10 @@ html {
     box-shadow: 0 0 10px 10px var(--sec-Main-color) inset !important;
     box-shadow: 0 0 200px 0 var(--sec-Dark-color) inset !important;
     border-radius: 8px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-end !important;
+    flex-wrap: wrap !important;
 }
 
 .cmd .cursor {
