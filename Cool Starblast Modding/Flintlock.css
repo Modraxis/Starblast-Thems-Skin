@@ -82,6 +82,7 @@ body > div.wrapper > div.centerpanel > div.runpanelcontainer {
     top: 8% !important;
     left: 1.5% !important;
     width: 145px !important;
+    border-radius: 8px !important;
 }
 
 .terminal,
@@ -212,10 +213,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 fa.fa-fw.fa-forward.colors:before {
     content: "\f200" !important;
-}
-
-#fieldview {
-    border: 1px solid var(--sec-Main-color);
 }
 
 .ace_active-line {
