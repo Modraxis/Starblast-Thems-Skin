@@ -77,6 +77,13 @@ body > div.wrapper > div.centerpanel > div.runpanelcontainer {
     background: var(--Main-color) !important;
 }
 
+#fieldview {
+    position: absolute !important;
+    top: 8% !important;
+    left: 1.5% !important;
+    width: 145px !important;
+}
+
 .terminal,
 .cmd,
 .terminal .terminal-output div div,
