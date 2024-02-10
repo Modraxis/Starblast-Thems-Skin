@@ -124,6 +124,12 @@ body > div.wrapper > div.centerpanel > div.runpanelcontainer {
     background: var(--Dark-color) !important;
 }
 
+.centerpanel {
+    background: url(https://raw.githubusercontent.com/halcyonXT/project-storage/main/PNG.png) no-repeat;
+    background-size: 110% auto;
+    background-position: 50% 500%;
+}
+
 select {
     font-family: Lato, Sans-Serif;
     font-size: 1em;
