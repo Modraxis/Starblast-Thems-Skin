@@ -75,6 +75,31 @@ body > div.wrapper > div.centerpanel > div.runpanelcontainer {
 
 .cmd .cursor {
     background: var(--Main-color) !important;
+    display: inline-block !important;
+    width: 6px !important;
+}
+
+.cmd .cursor:focus {
+    animation: cursor 1s linear infinite;
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.terminal, .cmd, .terminal .terminal-output div div, .cmd .prompt {
+    font-size: 16px !important;
+    line-height: 20px !important;
 }
 
 #fieldview {
