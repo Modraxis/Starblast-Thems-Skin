@@ -79,7 +79,7 @@ body > div.wrapper > div.centerpanel > div.runpanelcontainer {
     width: 6px !important;
 }
 
-.cmd .cursor:focus {
+#terminal:hover .cursor {
     animation: cursor 1s linear infinite;
 }
 
@@ -98,7 +98,7 @@ body > div.wrapper > div.centerpanel > div.runpanelcontainer {
 }
 
 .terminal, .cmd, .terminal .terminal-output div div, .cmd .prompt {
-    font-size: 16px !important;
+    font-size: 14px !important;
     line-height: 20px !important;
 }
 
