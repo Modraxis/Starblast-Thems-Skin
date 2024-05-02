@@ -1,4 +1,5 @@
 :root {
+    --Hue: 0;
     --Main-color: hsl(var(--Hue), 100%, 50%);
     --Light-color: hsl(var(--Hue), 100%, 80%);
     --Dark-color: hsl(var(--Hue), 100%, 4%);
