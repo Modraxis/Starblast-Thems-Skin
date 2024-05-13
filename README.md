@@ -35,5 +35,5 @@ If you encounter any issues or have suggestions for improvement, please **open a
 
 This project is licensed under the [MIT License](LICENSE.md).
 
-> [!Note]
+> [!CAUTION]
 > This userscript is not officially affiliated with Starblast.io. Use it at your own discretion.
