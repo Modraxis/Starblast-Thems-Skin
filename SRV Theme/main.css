@@ -1,17 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500&display=swap");
 
 :root {
-    --Light-color: #00B7F5;
-    --Dark-color: #031237;
-    --sec-Light-color: rgba(0, 184, 245, 0.5);
-    --sec-Dark-color: rgba(3, 18, 55, 0.5);
-    --Background-Dark-color: rgba(3, 18, 55, 0.25);
-    --Center-Logo: url(https://raw.githubusercontent.com/Modraxis/Starblast-Thems-Skin/main/SRV%20Theme/SRV%20Logo.png);
+    --Light-color: #e92d34;
+    --Dark-color: #270205;
+    --sec-Light-color: hsl(355deg 100% 48.04% / 50%);
+    --sec-Dark-color: hsl(355deg 89.66% 11.37% / 50%);
+    --Background-Dark-color: hsla(355, 100%, 5%, 0.25);
+    --Center-Logo: url(https://raw.githubusercontent.com/Modraxis/images/main/SRV%202.0.png);
 }
 
 * {
-    font-family: 'Exo', sans-serif;
+    font-family: "Exo", sans-serif;
     user-select: none;
+    transition: 0.5s;
+}
+
+button,
+input,
+select,
+label,
+#overlay,
+#overlay *,
+.modal,
+.modal * {
+    cursor: url(https://raw.githubusercontent.com/Modraxis/images/main/starblast%20cursor%2032x32.png) 0 0,
+        auto !important;
+    cursor: -webkit-image-set(url(https://raw.githubusercontent.com/Modraxis/images/main/starblast%20cursor%2032x32.png) 1x) 0 0, auto !important;
 }
 
 #logo img {
@@ -20,12 +34,13 @@
 }
 
 #logo {
-    background: var(--Center-Logo) no-repeat;
-    background-size: cover !important;
+    background: var(--Center-Logo) transparent no-repeat;
+    background-size: 100% auto !important;
     animation: show-logo;
     animation-duration: 2s;
     overflow: hidden !important;
     animation-fill-mode: forwards;
+    background-position: center;
 }
 
 @keyframes show-logo {
@@ -46,25 +61,19 @@
 
 .changelog-new,
 .extrabutton {
-    position: relative;
-    top: 0;
-    right: 250px;
     background: var(--sec-Dark-color);
-    border-radius: 0 12px 12px 0;
+    border-radius: 12px;
     border: 1px solid var(--Light-color);
     color: var(--Light-color);
     margin-top: 15px;
     text-align: center;
     overflow: hidden;
     box-shadow: none;
-    transition: .5s;
+    transition: 0.5s;
 }
 
-.changelog-new:focus,
-.extrabutton:focus,
 .changelog-new:hover,
 .extrabutton:hover {
-    right: 15px;
     box-shadow: 0 0 12px var(--Light-color);
 }
 
@@ -91,6 +100,7 @@
 }
 
 .full-changelog {
+    border-top: 1px solid var(--Light-color) !important;
     border-left: none !important;
     border-bottom: none !important;
     border-right: none !important;
@@ -103,7 +113,7 @@
     color: var(--Light-color) !important;
     text-align: center !important;
     overflow: hidden !important;
-    transition: .5s !important;
+    transition: 0.5s !important;
 }
 
 .full-changelog:focus,
@@ -154,7 +164,7 @@ input::placeholder {
 }
 
 #play:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 20px;
     left: -100%;
@@ -199,7 +209,7 @@ input::placeholder {
     top: 0;
     right: 0;
     color: var(--Light-color) !important;
-    transition: .5s !important;
+    transition: 0.5s !important;
     text-shadow: none;
 }
 
@@ -215,7 +225,7 @@ input::placeholder {
     top: 0;
     left: 0;
     color: var(--Light-color) !important;
-    transition: .5s !important;
+    transition: 0.5s !important;
     text-shadow: none;
 }
 
@@ -283,7 +293,7 @@ input::placeholder {
     bottom: 18px;
     transition: 0.5s;
     font-weight: 500;
-    font-size: 20px
+    font-size: 20px;
 }
 
 #training:hover span {
@@ -330,21 +340,21 @@ input::placeholder {
     position: relative;
     bottom: 20px;
     transition: 0.5s;
-    font-size: 15px
+    font-size: 15px;
 }
 
 #donate>span {
     position: relative;
     bottom: 22px;
     transition: 0.5s;
-    font-size: 15px
+    font-size: 15px;
 }
 
 #rankings>span {
     position: relative;
     bottom: 20px;
     transition: 0.5s;
-    font-size: 15px
+    font-size: 15px;
 }
 
 .sbg-modding,
@@ -467,19 +477,19 @@ input::placeholder {
 .slider {
     border: 1px solid var(--Light-color);
     background: var(--sec-Dark-color);
-    transition: .8s !important;
+    transition: 0.8s !important;
     border-radius: 20px;
 }
 
 .slider:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 3px;
     bottom: 3px;
     height: 26px;
     width: 26px;
     background: var(--Light-color);
-    transition: .8s !important;
+    transition: 0.8s !important;
     border-radius: 100%;
 }
 
@@ -713,8 +723,8 @@ hr {
 
 #refresh_btn {
     background: rgba(60, 0, 0, 0.5) !important;
-    color: #FF0000 !important;
-    border: 1px solid #FF0000 !important;
+    color: #ff0000 !important;
+    border: 1px solid #ff0000 !important;
     border-radius: 10px !important;
     transition: 0.5s !important;
     box-shadow: none !important;
@@ -725,9 +735,9 @@ hr {
 #refresh_btn:focus,
 #refresh_btn:hover {
     transform: scale(1.1) !important;
-    background: #FF0000 !important;
+    background: #ff0000 !important;
     color: rgba(60, 0, 0, 1) !important;
-    box-shadow: 0 0 10px #FF0000 !important;
+    box-shadow: 0 0 10px #ff0000 !important;
 }
 
 .modal .modecp {
@@ -762,13 +772,13 @@ td {
 }
 
 .fa.fa-long-arrow-down {
-    color: #FF0000 !important;
-    text-shadow: 0 0 5px #FF0000 !important;
+    color: #ff0000 !important;
+    text-shadow: 0 0 5px #ff0000 !important;
 }
 
 .fa.fa-long-arrow-up {
-    color: #00FF00 !important;
-    text-shadow: 0 0 5px #00FF00 !important;
+    color: #00ff00 !important;
+    text-shadow: 0 0 5px #00ff00 !important;
 }
 
 .regions {
