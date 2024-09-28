@@ -1,0 +1,268 @@
+/*
+ *  Created by: Modraxis (Basit)
+ *
+ *  This CSS file customizes the appearance and layout of ServerList+,
+ *  a project developed to enhance user experience. The design,
+ *  colors,
+ *  and overall theme have been carefully crafted by Modraxis to provide a unique and intuitive interface.
+ *
+ *  ServerList+ URL: https: //starblast.dankdmitron.dev/
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+:root {
+    --spectate-background-color: #202020;
+    --spectate-asteroids-color: #fff8;
+    --spectate-player-highlighting-color: #fff;
+    --ship-icons-filter: "";
+    --text-color: #fff;
+    --this-theme-hue: 200; /* You can adjust this hue as you want */
+}
+
+* {
+    font-family: "Itim", system-ui !important;
+}
+
+body {
+    background: linear-gradient(45deg, hsl(var(--this-theme-hue), 100%, 15%) 0%, #000 50%, hsl(var(--this-theme-hue), 100%, 15%) 100%) no-repeat !important;
+    background-size: 100% auto !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-color: hsl(var(--this-theme-hue), 100%, 4%) !important;
+    overflow: hidden !important;
+}
+
+.modal {
+    overflow: hidden !important;
+}
+
+.container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navbar {
+    user-select: none !important;
+    margin-bottom: 20px !important;
+    padding: 10px 25px !important;
+    backdrop-filter: blur(15px) !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.nav-icon {
+    font-size: 1.5rem !important;
+    transition: 0.5s !important;
+}
+
+.nav-icon:hover {
+    color: hsl(var(--this-theme-hue), 98%, 47%) !important;
+    text-shadow: 0 0 10px hsla(var(--this-theme-hue), 98%, 47%, 0.8);
+}
+
+.me-2 {
+    margin-right: 1rem !important;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0 20px !important;
+}
+
+#systemsListContainer,
+#viewOptions {
+    user-select: none !important;
+}
+
+#systemsListContainer {
+    max-height: 633px !important;
+}
+
+.card {
+    backdrop-filter: blur(15px) !important;
+    background: hsl(var(--this-theme-hue), 100%, 50%, 0.07) !important;
+    border: 2px solid transparent !important;
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px #0008 !important;
+    transition: 0.5s !important;
+}
+
+.card:hover {
+    border-color: #fff7 !important;
+}
+
+#viewOptions {
+    opacity: 0;
+    transform: translateX(-10px);
+    animation: slidein 2s linear(0 0%, 0 1.8%, 0.01 3.6%, 0.03 6.35%, 0.07 9.1%, 0.13 11.4%, 0.19 13.4%, 0.27 15%, 0.34 16.1%, 0.54 18.35%, 0.66 20.6%, 0.72 22.4%, 0.77 24.6%, 0.81 27.3%, 0.85 30.4%, 0.88 35.1%, 0.92 40.6%, 0.94 47.2%, 0.96 55%, 0.98 64%, 0.99 74.4%, 1 86.4%, 1 100%) forwards;
+}
+
+@keyframes slidein {
+    0% {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.spectatorCanvas {
+    border: 1px solid #fff2 !important;
+}
+
+.modal-content {
+    backdrop-filter: blur(15px) !important;
+    background: hsl(var(--this-theme-hue), 100%, 50%, 0.07) !important;
+    border-radius: 10px !important;
+}
+
+.form-control {
+    background-color: #fff2 !important;
+    color: #fff !important;
+    border: 1px solid #fff7 !important;
+    transition: 0.5s !important;
+}
+
+.form-check-input {
+    background-color: #fff5 !important;
+    border-color: #fff5 !important;
+    box-shadow: 0px 0px 6px 0px #fff8 !important;
+}
+
+.form-check-input:checked {
+    background-color: hsl(var(--this-theme-hue), 98%, 47%) !important;
+    border-color: hsl(var(--this-theme-hue), 98%, 47%) !important;
+    box-shadow: 0px 0px 10px 2px hsl(var(--this-theme-hue), 98%, 47%) !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem hsla(0, 0%, 100%, 0.25) !important;
+    border-color: #fff !important;
+}
+
+.form-select-sm {
+    background-color: #fff8 !important;
+    border: 1px solid transparent !important;
+    color: hsl(var(--this-theme-hue), 100%, 14%) !important;
+    transition: 0.35s !important;
+    outline: none !important;
+}
+
+.form-select-sm:focus {
+    border-color: #fff9 !important;
+}
+
+.btn {
+    transition: 0.5s !important;
+    --bs-btn-border-radius: 12px !important;
+}
+
+.btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: hsl(var(--this-theme-hue), 98%, 47%);
+    --bs-btn-border-color: hsl(var(--this-theme-hue), 98%, 47%);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: hsl(var(--this-theme-hue), 98%, 47%);
+    --bs-btn-hover-border-color: #fff8;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: hsl(var(--this-theme-hue), 100%, 38%);
+    --bs-btn-active-border-color: hsl(var(--this-theme-hue), 100%, 38%);
+    --bs-btn-active-shadow: inset 0 3px 5px #00000020;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: hsl(var(--this-theme-hue), 98%, 47%);
+    --bs-btn-disabled-border-color: hsl(var(--this-theme-hue), 98%, 47%);
+}
+
+.btn-danger:active {
+    transform: translateY(1.25px);
+}
+
+.btn-outline-danger {
+    --bs-btn-color: var(--text-color);
+    --bs-btn-bg: hsl(var(--this-theme-hue), 98%, 47%, 40%);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: hsl(var(--this-theme-hue), 98%, 47%);
+    --bs-btn-focus-shadow-rgb: 220, 53, 69;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: hsl(var(--this-theme-hue), 98%, 47%, 80%);
+    --bs-btn-active-shadow: inset 0 3px 5px #00000020;
+    --bs-btn-disabled-color: hsl(var(--this-theme-hue), 98%, 47%);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: hsl(var(--this-theme-hue), 98%, 47%);
+    --bs-gradient: none;
+}
+
+.btn-outline-danger[style*="display: none"] {
+    display: block !important;
+    pointer-events: none !important;
+    opacity: 0.4 !important;
+}
+
+.btn-outline-danger#systemReportLink {
+    border-left-color: hsl(var(--this-theme-hue), 98%, 47%, 80%) !important;
+    border-right-color: hsl(var(--this-theme-hue), 98%, 47%, 80%) !important;
+    border-radius: 0px !important;
+}
+
+.btn-outline-danger {
+    border-color: transparent !important;
+}
+
+.no-underline {
+    color: hsl(var(--this-theme-hue), 98%, 80%) !important;
+}
+
+.player-view-box {
+    padding: 0 5px !important;
+    transition: 0.15s !important;
+}
+
+.player-view-box:hover,
+.highlighted {
+    background-color: #fff3 !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+}
+
+.ship-icon-vanilla {
+    font-family: "Starblast Vanilla Ships", sans-serif !important;
+}
+
+.ship-icon-intrusion {
+    font-family: "Starblast Intrusion Ships", sans-serif !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-track {
+    background-color: #ffffff0d;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--this-theme-hue), 100%, 90%, 0.5);
+    border-radius: 10px;
+}
+
+.CodeMirror-scrollbar-filler,
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-button {
+    display: none !important;
+}
+
+::selection {
+    background-color: hsla(var(--this-theme-hue), 100%, 65%, 0.467);
+    color: var(--text-color);
+}
