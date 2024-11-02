@@ -1,4 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>STARBLAST.IO</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui=1">
+        <meta charset="UTF-8">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="manifest" href="https://starblast.io/manifest.json">
+        <meta name="description" content="Multiplayer Arcade Space Shooter io Game! Shoot asteroids and enemies to collect crystals. Upgrade your ship before you get killed!">
+        <meta name="keywords" content="io, starblastio, starblast, iogame, star wars, shoot'em up, spaceship, game, games, web game, io games, html5, fun, flash">
+        <meta property="og:title" content="starblast.io">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Multiplayer Arcade Space Shooter io Game! Shoot asteroids and enemies to collect crystals. Upgrade your ship before you get killed!">
+        <meta property="og:url" content="https://starblast.io/">
+        <meta property="og:site_name" content="starblast.io">
+        <meta property="og:image" content="https://starblast.io/static/img/starblast.png?2">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@starblast_io">
+        <meta name="twitter:creator" content="@neuronality">
+        <meta name="twitter:title" content="Starblast.io, free online shoot'em up">
+        <meta name="twitter:description" content="Multiplayer Arcade Space Shooter io Game! Shoot asteroids and enemies to collect crystals. Upgrade your ship before you get killed!">
+        <meta name="twitter:image" content="https://starblast.io/static/img/starblast.png?2">
+        <link rel="icon" type="image/png" href="https://starblast.io/static/img/icon64.png"/>
+        <link rel="image_src" href="https://starblast.io/static/img/starblast.png?2">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             @font-face {
                 font-family: 'SBGlyphs';
